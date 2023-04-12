@@ -234,5 +234,10 @@ namespace Ksu.Cis300.SudokuSolver
             uxSolve.Enabled = false;
             uxBoardPanel.Enabled = false;
         }
+
+        private void UserInterface_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

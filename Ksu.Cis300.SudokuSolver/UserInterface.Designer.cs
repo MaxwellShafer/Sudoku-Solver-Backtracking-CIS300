@@ -62,21 +62,21 @@
             // uxNew4By4
             // 
             this.uxNew4By4.Name = "uxNew4By4";
-            this.uxNew4By4.Size = new System.Drawing.Size(270, 34);
+            this.uxNew4By4.Size = new System.Drawing.Size(182, 34);
             this.uxNew4By4.Text = "New 4x4";
             this.uxNew4By4.Click += new System.EventHandler(this.uxNew4By4_Click);
             // 
             // uxNew9By9
             // 
             this.uxNew9By9.Name = "uxNew9By9";
-            this.uxNew9By9.Size = new System.Drawing.Size(270, 34);
+            this.uxNew9By9.Size = new System.Drawing.Size(182, 34);
             this.uxNew9By9.Text = "New 9x9";
             this.uxNew9By9.Click += new System.EventHandler(this.uxNew9By9_Click);
             // 
             // uxSolve
             // 
             this.uxSolve.Name = "uxSolve";
-            this.uxSolve.Size = new System.Drawing.Size(270, 34);
+            this.uxSolve.Size = new System.Drawing.Size(182, 34);
             this.uxSolve.Text = "Solve";
             this.uxSolve.Click += new System.EventHandler(this.uxSolve_Click);
             // 
@@ -107,6 +107,7 @@
             this.MaximizeBox = false;
             this.Name = "UserInterface";
             this.Text = "Sudoku Solver";
+            this.Load += new System.EventHandler(this.UserInterface_Load);
             this.uxMenuBar.ResumeLayout(false);
             this.uxMenuBar.PerformLayout();
             this.ResumeLayout(false);

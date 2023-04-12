@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssignmentData.cs" />
     <Compile Include="DoublyLinkedListCell.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="MinPriorityQueue.cs" />
+    <Compile Include="PuzzleData.cs" />
     <Compile Include="Solver.cs" />
     <Compile Include="UserInterface.cs">
       <SubType>Form</SubType>

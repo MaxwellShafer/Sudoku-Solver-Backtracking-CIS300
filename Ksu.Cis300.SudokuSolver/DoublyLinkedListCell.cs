@@ -1,5 +1,6 @@
 ﻿/* DoublyLinkedListCell.cs
  * Author: Rod Howell
+ * Edited BY: Max Shafer
  */
 using System;
 using System.Collections.Generic;
@@ -12,22 +13,22 @@ namespace Ksu.Cis300.SudokuSolver
     /// <summary>
     /// A single cell of a doubly-linked list of ints.
     /// </summary>
-    public class DoublyLinkedListCell
+    public class DoublyLinkedListCell<T>
     {
         /// <summary>
         /// Gets or sets the data stored in this cell.
         /// </summary>
-        public int Data { get; set; }
+        public T Data { get; set; }
 
         /// <summary>
         /// Gets or sets the previous cell in the list.
         /// </summary>
-        public DoublyLinkedListCell Previous { get; set; }
+        public DoublyLinkedListCell<T> Previous { get; set; }
 
         /// <summary>
         /// Gets or sets the next cell in the list.
         /// </summary>
-        public DoublyLinkedListCell Next { get; set; }
+        public DoublyLinkedListCell<T> Next { get; set; }
 
         /// <summary>
         /// Constructs a new cells that forms a circular list by itself.
